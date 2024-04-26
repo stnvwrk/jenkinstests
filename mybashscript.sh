@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "Hello I'm working!"
+echo "Hello $1 I'm working!"
+
+
+
 
