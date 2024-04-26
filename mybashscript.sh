@@ -13,7 +13,7 @@ do
   value_tags="${value_tags} ${value_tag}"
 done
 
-sed "/<parent>/a ${values_tags}" edited_testfile.xml > final_testfile_${1}.xml
+sed "/<parent>/a ${value_tags}" edited_testfile.xml > final_testfile_${1}.xml
 cat final_testfile_${1}.xml
 
 
