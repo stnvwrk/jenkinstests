@@ -9,7 +9,7 @@ values="10 22 23 33 45 66 78"
 
 for value in ${values[@]}
 do
-  value_tag="<child>\n\t\t<value>$value</value>\n\t</child>\n"
+  value_tag="<child>\n\t<value>$value</value>\n</child>\n"
   value_tags="${value_tags} ${value_tag}"
 done
 
