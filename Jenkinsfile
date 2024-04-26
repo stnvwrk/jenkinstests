@@ -33,7 +33,7 @@ pipeline {
                 catFile("/tmp/testfile.txt")
                 sayHello()
                 sayHello("Goro!")
-                sh "bash ./mybashscript.sh"
+                sh "bash ./mybashscript.sh 'Daniel'"
             }
         }
     }
